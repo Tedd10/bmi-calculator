@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*-----------Basic Reset---------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border-style: none;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  background: linear-gradient(#276482, #3991bd);
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+  height: 100%;
+}
+
+.bmi-calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1,
+h2,
+p,
+label {
+  color: #f6f6ff
+}
